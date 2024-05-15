@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# Color Palette Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple color palette generator application built using React, TypeScript, and Tailwind CSS. The app allows users to generate custom color (using button or clicking space key on keyboard) palettes by selecting colors from a color picker. Users can lock individual colors they like and generate additional colors to complete their palette. Each color's hex code is displayed during hovering, and users can copy it to their clipboard with a single click. Additionally, users can lock colors in their palette and download the entire palette as a PNG image, making it easy to save and share their creations.
 
-Currently, two official plugins are available:
+Webiste hosted here -> https://xeo3221.github.io/color-palette-generator/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React
+- TypeScript
+- TailwindCSS
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Desing
+![Screenshot 2024-05-15 at 16 06 58](https://github.com/xeo3221/color-palette-generator/assets/95309495/820e5f01-6048-4612-84c9-a99a6bd3ba80)
