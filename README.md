@@ -9,5 +9,5 @@ Webiste hosted here -> https://xeo3221.github.io/color-palette-generator/
 - TypeScript
 - TailwindCSS
 
-## Desing
+## Design
 ![Screenshot 2024-05-15 at 16 06 58](https://github.com/xeo3221/color-palette-generator/assets/95309495/820e5f01-6048-4612-84c9-a99a6bd3ba80)
